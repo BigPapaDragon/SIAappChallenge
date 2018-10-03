@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Singapore Airlines</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_admin">You are watching the admin Home screen</string>
+    <string name="nav_passenger">You are watching the Passenger Home screen</string>
+    <string name="nav_flight_crew">You are watching the Flight Crew Home screen</string>
+    <string name="nav_ground_staff">You are watching the ground staff Home screen</string>
+
+</resources>

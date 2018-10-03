@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+android:id="@+id/appbarpassenger"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.adara.yashsd.siaappchallenge.MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lustria"
+        android:text="Passenger view"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textColor="#000000"
+            android:text="This is the page where information relevant to the passenger can be displayed. \n\nThis includes information like Departure time of the flight, status of the flight, etc.
+\nThis page can also be used to display KrissFly services, hence providing the means to the passenger to shop.\n
+The passenger can login by using a combination of unique but temporary details, like Boarding pass number and date of birth.
+\nIn case of offloading a passenger, this page can be used to add credit to the passenger temporary account (should the passenger choose to do so) in the form of compensation.
+"/>
+    </LinearLayout>
+</ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

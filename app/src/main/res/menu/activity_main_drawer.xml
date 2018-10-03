@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Login Types">
+            <menu>
+                <item
+                    android:id="@+id/nav_admin"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Admin" />
+                <item
+                    android:id="@+id/nav_passenger"
+                    android:icon="@drawable/ic_menu_passenger"
+                    android:title="Passenger" />
+                <item
+                    android:id="@+id/nav_groundstaff"
+                    android:icon="@drawable/ic_menu_ground_staff"
+                    android:title="Ground staff" />
+                <item
+                    android:id="@+id/nav_flightcrew"
+                    android:icon="@drawable/ic_menu_flightcrew"
+                    android:title="flightcrew" />
+            </menu>
+        </item>
+    </group>
+</menu>
